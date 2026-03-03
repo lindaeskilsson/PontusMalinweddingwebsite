@@ -72,7 +72,7 @@ const RsvpSection = () => {
             Kan du komma?
           </h2>
           <p className="font-body text-muted-foreground">
-            Vänligen svara senast den 1 juni 2026
+            Vänligen svara senast den 31 Maj 2026
           </p>
         </motion.div>
 

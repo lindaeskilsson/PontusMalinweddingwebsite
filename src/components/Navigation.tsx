@@ -34,7 +34,7 @@ const Navigation = () => {
             scrolled ? "text-foreground" : "text-primary-foreground"
           }`}
         >
-          A & E
+          P & M
         </a>
 
         <div className="hidden md:flex gap-8">

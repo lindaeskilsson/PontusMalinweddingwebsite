@@ -14,26 +14,8 @@ const infoCards = [
       "Vi har reserverat rum på Hotel Norra Hamnen som ligger nära festlokalen. Ange kod 'BRÖLLOP2026' vid bokning. Alternativt finns det flera mysiga Airbnb-lägenheter i centrum.",
   },
   {
-    icon: Plane,
-    title: "Flygplats",
-    content:
-      "Närmaste flygplats är Göteborg Landvetter (GOT), ca 30 min med buss eller taxi till centrum.",
-  },
-  {
-    icon: Train,
-    title: "Tågstation",
-    content:
-      "Göteborg Centralstation ligger i hjärtat av staden. Spårvagn eller taxi tar er enkelt vidare till platsen.",
-  },
-  {
-    icon: Ship,
-    title: "Färja",
-    content:
-      "Stena Line trafikerar linjen Frederikshavn–Göteborg för er som kommer från Danmark.",
-  },
-  {
     icon: Bus,
-    title: "Buss",
+    title: "Transport",
     content:
       "Nils Ericson Terminalen är den centrala bussterminalen. FlixBus och andra bolag har linjer hit.",
   },

@@ -6,12 +6,8 @@ const fadeIn = {
 };
 
 const schedule = [
-  { time: "14:00", event: "Vigsel", detail: "Samling vid kapellet" },
-  { time: "15:00", event: "Mingel & fördrink", detail: "I trädgården med bubbel och snittar" },
-  { time: "16:30", event: "Middag serveras", detail: "Trerätters middag med tal och skratt" },
-  { time: "19:00", event: "Tårta & kaffe", detail: "Bröllopstårtan skärs" },
-  { time: "20:00", event: "Brudvals & fest", detail: "Dansen är öppen – festa på!" },
-  { time: "00:00", event: "Kvällen avslutas", detail: "Tack för att ni firade med oss" },
+  { time: "11:00", event: "Vigsel & Dop", detail: "Samling vid Tännäs kyrka" },
+  { time: "14:00", event: "Mottagning i Frösjön", detail: "I trädgården med bubbel och snittar" },
 ];
 
 const ScheduleSection = () => {

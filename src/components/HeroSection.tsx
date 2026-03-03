@@ -19,14 +19,14 @@ const HeroSection = () => {
           Vi gifter oss
         </p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-6 italic">
-          Anna & Erik
+          Pontus & Malin
         </h1>
         <div className="w-20 h-px bg-primary-foreground/60 mx-auto mb-6" />
         <p className="font-body text-xl md:text-2xl tracking-wide opacity-90">
-          15 augusti 2026
+          4 Juli 2026
         </p>
         <p className="font-body text-lg mt-2 opacity-80">
-          Göteborg, Sverige
+          Tännäs, Härjedalen
         </p>
         <motion.a
           href="#osa"
