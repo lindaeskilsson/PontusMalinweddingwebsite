@@ -28,18 +28,15 @@ const OurStorySection = () => {
           className="space-y-6 text-muted-foreground font-body leading-relaxed text-lg"
         >
           <p>
-            Det var en solig eftermiddag i juni 2019 som våra vägar korsades för 
-            första gången. Vi möttes på en gemensam väns sommarfest ute i skärgården 
-            och det klickade direkt.
+            Det var i Tännäs vintern 2019 som våra vägar möttes för första gången. 
+            Sedan dess har livet tagit oss på en fantastisk resa tillsammans.
           </p>
           <p>
-            Det som började med långa samtal över middag utvecklades snart till 
-            promenader längs havet, delade drömmar och ett ständigt växande band. 
-            Vi har rest världen runt, skrattat, gråtit och vuxit tillsammans.
+            År 2022 friade Pontus på en alptopp, och 2025 fick vi vår älskade son.
           </p>
           <p>
-            Nu är vi redo att ta nästa steg och vi vill inget hellre än att dela 
-            denna dag med er — våra allra käraste.
+            Nu vill vi fira allt detta tillsammans med er -
+            ß både vårt bröllop och dopet av vår son, på en plats som betyder mycket för oss.
           </p>
         </motion.div>
       </div>

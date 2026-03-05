@@ -19,7 +19,13 @@ const HeroSection = () => {
           Vi gifter oss
         </p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-6 italic">
-          Pontus & Malin
+          Malin & Pontus
+        </h1>
+        <p className="font-body text-lg tracking-[0.3em] uppercase mb-4 opacity-90">
+          Jag blir döpt
+        </p>
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-6 italic">
+          Henning Harry Eskilsson
         </h1>
         <div className="w-20 h-px bg-primary-foreground/60 mx-auto mb-6" />
         <p className="font-body text-xl md:text-2xl tracking-wide opacity-90">

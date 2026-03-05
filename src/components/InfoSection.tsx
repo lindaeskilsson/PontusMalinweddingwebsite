@@ -10,20 +10,36 @@ const infoCards = [
   {
     icon: MapPin,
     title: "Boende",
-    content:
-      "Vi har reserverat rum på Hotel Norra Hamnen som ligger nära festlokalen. Ange kod 'BRÖLLOP2026' vid bokning. Alternativt finns det flera mysiga Airbnb-lägenheter i centrum.",
+    content: [
+      {
+        name: "Tännäskröket Camping & Lägenheter",
+        url: "https://tannaskroket.se",
+      },
+      {
+        name: "Eriksgårdens Fjällhotell",
+        url: "https://eriksgarden.se",
+      },
+      {
+        name: "Hotell Funäsdalen",
+        url: "https://hotellfunasdalen.se",
+      },
+      {
+        name: "Skoogs Logi Lägenheter",
+        url: "https://skoogslogi.se",
+      },
+    ],
   },
   {
     icon: Bus,
     title: "Transport",
     content:
-      "Nils Ericson Terminalen är den centrala bussterminalen. FlixBus och andra bolag har linjer hit.",
+      "Bussbolaget Härjedalingen kör mellan Stockholm och Funäsdalen och stannar även i Tännäs. Närmaste flygplats är Härjedalen Sveg Airport, cirka 1,5–2 timmar från Tännäs med bil.",
   },
   {
     icon: Shirt,
     title: "Klädsel",
     content:
-      "Vi önskar kavaj och klänning. Tänk sommarfest – fint men bekvämt! Ni behöver inte följa klädkoden strikt, men vi uppskattar om ni klär er festligt. Undvik vitt.",
+      "Vi önskar kavaj och klänning. Tänk sommarfest – fint men bekvämt! Ni behöver inte följa klädkoden strikt, men vi uppskattar om ni klär er festligt.",
   },
 ];
 
@@ -61,9 +77,26 @@ const InfoSection = () => {
               <h3 className="font-display text-xl mb-3 text-foreground">
                 {card.title}
               </h3>
-              <p className="font-body text-muted-foreground leading-relaxed text-sm">
-                {card.content}
-              </p>
+              {Array.isArray(card.content) ? (
+  <ul className="mt-2 space-y-2 text-sm">
+    {card.content.map((place) => (
+      <li key={place.name}>
+        <a
+          href={place.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-body text-primary underline underline-offset-4 hover:opacity-70"
+        >
+          {place.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+) : (
+  <p className="font-body text-muted-foreground leading-relaxed text-sm">
+    {card.content}
+  </p>
+)}
             </motion.div>
           ))}
         </div>
