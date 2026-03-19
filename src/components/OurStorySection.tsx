@@ -28,15 +28,13 @@ const OurStorySection = () => {
           className="space-y-6 text-muted-foreground font-body leading-relaxed text-lg"
         >
           <p>
-            Det var i Tännäs vintern 2019 som våra vägar möttes för första gången. 
-            Sedan dess har livet tagit oss på en fantastisk resa tillsammans.
+            DVår gemensamma historia tog sin början i Tännäs vintern 2020, och sedan dess har vi haft förmånen att dela livets alla stora stunder tillsammans.
+             Efter ett oförglömligt frieri på en alptopp 2022 och ankomsten av vår efterlängtade son 2025, vill vi nu fira familjen och framtiden.
           </p>
+      
           <p>
-            År 2022 friade Pontus på en alptopp, och 2025 fick vi vår älskade son.
-          </p>
-          <p>
-            Nu vill vi fira allt detta tillsammans med er -
-            ß både vårt bröllop och dopet av vår son, på en plats som betyder mycket för oss.
+            Det är med stor glädje vi bjuder in er till en dag i kärlekens tecken, där vi förenar vårt bröllop med dopet av vår son. 
+            Vi har valt en plats som har en speciell betydelse för oss, och vi hoppas att ni vill göra oss sällskap och skapa nya minnen tillsammans med oss.
           </p>
         </motion.div>
       </div>
