@@ -119,7 +119,7 @@ const RsvpSection = () => {
           <p className="font-body text-muted-foreground text-lg">
             Vi har tagit emot ditt svar. Vi ses{" "}
             {formData.attending === "yes"
-              ? "den 15 augusti!"
+              ? "den 4 Juli!"
               : "förhoppningsvis snart!"}
           </p>
 

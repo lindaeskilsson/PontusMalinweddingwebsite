@@ -7,7 +7,7 @@ const fadeIn = {
 
 const schedule = [
   { time: "11:00", event: "Vigsel & Dop", detail: "Samling vid Tännäs kyrka" },
-  { time: "14:00", event: "Mottagning", detail: "På vallen i Fröjsön" },
+  { time: "14:00", event: "Mottagning", detail: "På vallen i Frösjön" },
 ];
 
 const ScheduleSection = () => {
