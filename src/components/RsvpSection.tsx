@@ -249,7 +249,7 @@ const RsvpSection = () => {
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-background border border-border rounded font-body text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                 >
-                  {[1, 2, 3, 4].map((n) => (
+                  {[1, 2, 3, 4, 5, 6, 7].map((n) => (
                     <option key={n} value={n}>
                       {n} {n === 1 ? "person" : "personer"}
                     </option>
