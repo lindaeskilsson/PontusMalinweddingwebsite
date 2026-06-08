@@ -7,7 +7,11 @@ const fadeIn = {
 
 const schedule = [
   { time: "11:00", event: "Vigsel & Dop", detail: "Samling vid Tännäs kyrka" },
-  { time: "14:00", event: "Mottagning", detail: "På vallen i Frösjön" },
+  { time: "14:00", event: "Mottagning, mingel, tipsrunda", detail: "På vallen i Frösjön" },
+  { time: "15:00", event: "Middag startar. Dryck både med och utan alkohol kommer finnas till maten.", detail: "Frösjön" },
+  { time: "17:30", event: "Tårta och kaffe", detail: "Frösjön" },
+  { time: "PARTYTIME", event: "Kalas tills bena inte bär mer", detail: "Frösjön" },
+  { time: "Klockan sent", event: "Påfyllning med Kents hamburgare", detail: "Frösjön" },
 ];
 
 const ScheduleSection = () => {
