@@ -38,7 +38,7 @@ const infoCards = [
     type: "list",
     content: [
       "Hålla tal? Kontakta Linda eller Kristoffer på mejl: eskilsson.linda@hotmail.se / kristoffer.saengsee.eskilsson@gmail.com",
-      "Dryck bjuder vi på endast till maten – utöver det får man ta med själv.",
+      "Dryck bjuder vi på endast till maten – utöver det kommer de finnas en bar med billig dryck!",
       "Vi vill inte att ni fotar och filmar i kyrkan utan bara njuter av nuet. Vi har en fotograf som kommer att både filma och fota, som ni får tillgång till senare.",
     ],
   },
