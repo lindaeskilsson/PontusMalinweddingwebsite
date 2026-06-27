@@ -12,6 +12,7 @@ const schedule = [
   { time: "17:30", event: "Tårta och kaffe", detail: "Frösjön" },
   { time: "PARTYTIME", event: "Kalas tills bena inte bär mer", detail: "Frösjön" },
   { time: "Klockan sent", event: "Påfyllning med Kents hamburgare", detail: "Frösjön" },
+  { time: "OBS", event: "Alla tider i Frösjön är ungefärliga, det kan tillkomma lite förändringar", detail: "Frösjön" },
 ];
 
 const ScheduleSection = () => {
